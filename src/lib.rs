@@ -1,5 +1,8 @@
 mod echoer;
+mod hop;
+
 pub use echoer::*;
+pub use hop::*;
 
 #[cfg(test)]
 mod tests {
